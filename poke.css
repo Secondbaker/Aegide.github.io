@@ -21,6 +21,11 @@ label {
     width:  150px;
     height: 150px;
     object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+.silhouette {
+    filter: contrast(0%);
 }
 
 .picpokShiny {
